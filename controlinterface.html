@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Control Interface</title>
+ <link rel="stylesheet" href="controlinterface.css">
+</head>
+
+<body><center>
+   <h3>Base Control Panel</h3>
+   <div>
+       <form method="POST" action="forward.php"> 
+           <button href="forward.php">Forward</button>
+       </form>
+      
+       <div class="container">
+           <form method="POST" action="left.php">
+           <button href="left.php" class="a">Left</button>
+           </form>
+           <form method="POST" action="stop.php">
+               <button href="stop.php"class="a">Stop</button>
+               </form>
+           <form method="POST" action="right.php"><button href="right.php"class="a">Right</button>
+               </form>
+       </div>
+       <form method="POST" action="backward.php">
+       <button href="backward.php" class="a">Backward</button>
+       </form>
+   </div>
+   </center>
+
+</body>
+</html>
